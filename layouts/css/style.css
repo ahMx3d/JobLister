@@ -1,0 +1,158 @@
+/* Space out content a bit */
+body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  /* Everything but the jumbotron gets side spacing for mobile first views */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+  /* Custom page header */
+  .header {
+    padding-bottom: 1rem;
+    border-bottom: .05rem solid #e5e5e5;
+  }
+  /* Make the masthead heading the same height as the navigation */
+  .header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 3rem;
+  }
+  .header .proj-name {
+    letter-spacing: -2px;
+  }
+
+  /* Custom page footer */
+  .footer {
+    padding-top: 1.5rem;
+    /* color: #777; */
+    border-top: .05rem solid #e5e5e5;
+  }
+  
+  /* Customize container */
+  @media (min-width: 48em) {
+    .container {
+      max-width: 46rem;
+    }
+  }
+  .container-narrow > hr {
+    margin: 2rem 0;
+  }
+  
+  /* Main marketing message and sign up button */
+  .jumbotron {
+    text-align: center;
+    border-bottom: .05rem solid #e5e5e5;
+  }
+  .custom-jumbotron {
+    padding: 2rem;
+  }
+  /* .jumbotron .btn {
+    padding: .75rem 1.5rem;
+    font-size: 1.5rem;
+  } */
+  .jumbotron .custom-heading {
+    letter-spacing: -5px;
+  }
+  .jumbotron form .custom-btn {
+    padding: 0.375rem 0.75rem;
+  }
+  
+  /* Supporting marketing content */
+  .marketing {
+    margin: 3rem 0;
+  }
+  .marketing h4 {
+    letter-spacing: -2px;
+    font-style: italic;
+    font-size: 30px;
+  }
+  .marketing p + h4 {
+    margin-top: 1.5rem;
+  }
+  
+  /* Responsive: Portrait tablets and up */
+  @media screen and (min-width: 48em) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    /* Space out the masthead */
+    .header {
+      margin-bottom: 2rem;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+      border-bottom: 0;
+    }
+  }
+  .card .card-header .jobs-header {
+    letter-spacing: -2px;
+    font-weight: bold;
+  }
+  .card .card-body .custom-btn:hover {
+    background-color: #3498DB;
+    border-color: #3498DB;
+  }
+  .custom-marketing {
+    padding: 0;
+    margin: 0;
+  }
+  .card-body .border-top:last-child {
+    display: none;
+  }
+
+  /* Single-Job Page */
+  .card .custom-heading {
+    letter-spacing: -2px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .card .card-body .card-title .badge {
+    font-size: 15px;
+  }
+  .card .card-body .card-title .custom-info,
+  .card-footer .custom-info {
+    font-style: italic;
+    text-decoration: underline;
+  }
+  .card .card-body p {
+    text-align: justify;
+  }
+  .card ul li span {
+    /* font-weight: bold; */
+    font-size: 20px;
+  }
+
+  /* Create Listing Page */
+  legend {
+    text-align: center;
+    letter-spacing: -3px;
+    font-size: 33px;
+    font-weight: bold;
+    font-style: italic;
+    color: #18BC9C;
+  }
+  label {
+    color: #2C3E50;
+    font-weight: bold;
+  }
+  fieldset input[type=submit] {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bolder;
+  }
+
+  /* Edit Page */
+  form fieldset input[type=submit]:hover {
+    background-color: #3498DB;
+    border-color: #3498DB;;
+  }
